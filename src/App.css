@@ -1,0 +1,136 @@
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+  background-color: #8ef6e4; /* First color in the palette */
+  overflow-x: hidden;
+}
+
+.btn:last-child {
+  font-weight: medium;
+  font-size: 40px;
+  width: 110px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: #d59bf6; /* Third color in the palette */
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding-top: 10rem;
+  font-size: 3rem;
+  color: #9896f1; /* Second color in the palette */
+}
+
+.nav {
+  background: linear-gradient(to right, #d59bf6, #edb1f1); /* Third and fourth colors in the palette */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 52rem;
+  padding: 0 2rem;
+  transition: all .3s ease;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #edb1f1; /* Fourth color in the palette */
+}
+
+.nav li:hover {
+  background-color: #8ef6e4; /* First color in the palette */
+  color: #9896f1; /* Second color in the palette */
+}
+
+/* Footer */
+
+.footer-basic {
+  margin-top: 3rem;
+  padding: 20px 0;
+  background-color: #9896f1; /* Second color in the palette */
+  color: #ffffff; /* Changed footer text color */
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: white;
+  margin: 0 8px;
+  color: inherit;
+  background: #d59bf6; /* Third color in the palette */
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #0a0101; /* Changed copyright text color */
+  margin-bottom: 0;
+}
+
+.location {
+  text-align: right;
+}
+
+.location iframe {
+  width: 50rem;
+  height: 16rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
